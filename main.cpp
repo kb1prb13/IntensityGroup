@@ -15,5 +15,6 @@ int main(int argc, char *argv[]) {
         threshold (out,out,64,128,THRESH_BINARY);
     }
 
+    waitKey(0);
     return 0;
 }
