@@ -1,4 +1,4 @@
-#include <opencv2/opencv.hpp>
+//#include <opencv2/opencv.hpp>
 
 int main(int argc, char *argv[]) {
 //    Mat image, out;
@@ -22,4 +22,5 @@ int main(int argc, char *argv[]) {
 //    namedWindow("Out", CV_WINDOW_AUTOSIZE);
 //    imshow("Lena",image);
 //    imshow("Out", out);
+    return 0;
 }
