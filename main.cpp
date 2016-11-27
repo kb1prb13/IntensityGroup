@@ -12,9 +12,10 @@ int main(int argc, char *argv[]) {
         for (int x = 0; x < out.rows; x++) {
             out.at<uchar>(y, x) /= 2;
         }
-        threshold (out,out,64,128,THRESH_BINARY);
     }
-
+    
+        threshold (out,out,64,128,THRESH_BINARY);
+    
     waitKey(0);
     return 0;
 }
