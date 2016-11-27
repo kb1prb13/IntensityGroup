@@ -13,8 +13,10 @@ int main(int argc, char *argv[]) {
             out.at<uchar>(y, x) /= 2;
         }
     }
-    
+    //threshold(out, out, 128, 255, THRESH_TRUNC);
     threshold (out,out,64,128,THRESH_BINARY);
+    //threshold(out, out, 32, 64, THRESH_TRUNC);
+    //threshold(out, out, 16, 255, THRESH_TRUNC);
     namedWindow("Lena",CV_WINDOW_AUTOSIZE);
     waitKey(0);
     return 0;
